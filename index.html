@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumière VIP Salon | Hair, Nails & Wigs</title>
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body class="bg-salon-bg text-salon-text overflow-x-hidden">
+  
+  <nav class="fixed w-full z-50 py-6 px-6 transition-all duration-300 bg-salon-bg/90 backdrop-blur-md border-b border-salon-text/5">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="font-display font-bold text-2xl tracking-widest uppercase text-salon-text">
+        Lumière<span class="text-salon-accent">.</span>
+      </div>
+      <div class="hidden md:flex gap-8 text-xs font-bold uppercase tracking-[0.2em] text-salon-text/70">
+        <a href="#experience" class="hover:text-salon-accent transition-colors">Experience</a>
+        <a href="#services" class="hover:text-salon-accent transition-colors">Services</a>
+        <a href="#gallery" class="hover:text-salon-accent transition-colors">Gallery</a>
+      </div>
+      <button class="bg-salon-accent hover:bg-salon-accent-glow text-white px-8 py-3 rounded-sm font-bold uppercase tracking-widest text-[10px] transition-all shadow-md">
+        Book Now
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="relative min-h-screen flex items-center justify-center pt-24 overflow-hidden">
+    <!-- Background Image with Cream Overlay -->
+    <div class="absolute inset-0 w-full h-full">
+      <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=2000" alt="Luxury Salon Interior" class="w-full h-full object-cover">
+      <div class="absolute inset-0 bg-gradient-to-b from-salon-bg/90 via-salon-bg/70 to-salon-bg"></div>
+    </div>
+    
+    <!-- Hero Content -->
+    <div class="relative z-10 text-center px-4 max-w-4xl mx-auto mt-12">
+      <span class="block text-salon-accent text-xs md:text-sm font-bold uppercase tracking-[0.3em] mb-6">Welcome to Elegance</span>
+      <h1 class="font-display text-[clamp(2.5rem,8vw,6rem)] md:text-7xl font-bold leading-tight mb-8 text-salon-text">
+        Redefining <br> <span class="text-gradient">Luxury Beauty.</span>
+      </h1>
+      <p class="text-salon-text/80 text-lg md:text-xl font-light mb-12 max-w-2xl mx-auto">
+        Experience world-class hair styling, bespoke wig revamping, and premium nail care in an exclusive environment designed just for you.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <a href="#booking" class="bg-salon-accent hover:bg-salon-accent-glow text-white px-10 py-4 rounded-sm font-bold uppercase tracking-widest text-xs transition-all shadow-lg hover:shadow-salon-accent/40 w-full sm:w-auto">
+          Reserve an Appointment
+        </a>
+        <a href="#services" class="border border-salon-text/20 hover:border-salon-text/50 text-salon-text px-10 py-4 rounded-sm font-bold uppercase tracking-widest text-xs transition-all w-full sm:w-auto">
+          Explore Services
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Experience Section -->
+  <section id="experience" class="py-32 px-6 bg-white text-salon-text relative">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+      <div class="space-y-8">
+        <span class="text-salon-accent text-xs font-bold uppercase tracking-[0.3em]">The Lumière Experience</span>
+        <h2 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+          Where Artistry Meets <span class="text-salon-text tracking-normal border-b-2 border-salon-accent">Exclusivity.</span>
+        </h2>
+        <p class="text-salon-text/70 text-lg md:text-xl font-light leading-relaxed">
+          Step into a sanctuary crafted for those who demand perfection. At Lumière, we don't just restyle hair and nails; we curate a transformative experience using the world's most elite products and techniques.
+        </p>
+        <div class="grid grid-cols-2 gap-8 pt-8 border-t border-salon-text/10">
+          <div>
+            <h4 class="font-display text-3xl font-bold text-salon-text mb-2">15+</h4>
+            <p class="text-[10px] uppercase tracking-widest text-salon-text/60 font-bold">Years of Mastery</p>
+          </div>
+          <div>
+            <h4 class="font-display text-3xl font-bold text-salon-text mb-2">VIP</h4>
+            <p class="text-[10px] uppercase tracking-widest text-salon-text/60 font-bold">Private Suites Available</p>
+          </div>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="aspect-[4/5] overflow-hidden rounded-sm relative z-10 w-[90%] md:w-full ml-auto">
+          <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&q=80&w=1200" alt="Salon Details" class="w-full h-full object-cover">
+        </div>
+        <div class="absolute top-12 -left-8 w-2/3 h-full bg-salon-accent/10 -z-10"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Services Section -->
+  <section id="services" class="py-32 px-6 bg-salon-bg text-salon-text relative border-t border-salon-text/5">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-20 space-y-4">
+        <span class="text-salon-accent text-xs font-bold uppercase tracking-[0.3em]">Our Expertise</span>
+        <h2 class="font-display text-4xl md:text-5xl font-bold">The Lumière <span class="text-gradient">Portfolio</span></h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Service 1 -->
+        <div class="group relative bg-white border border-salon-text/5 rounded-sm p-8 hover:border-salon-accent/30 transition-all shadow-sm hover:shadow-xl hover:-translate-y-2">
+          <div class="mb-6 w-12 h-12 bg-salon-bg rounded-full flex items-center justify-center text-salon-accent group-hover:bg-salon-accent group-hover:text-white transition-all">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+          </div>
+          <h3 class="font-display text-xl font-bold mb-4">Haute Couture Hair</h3>
+          <p class="text-salon-text/60 text-sm font-light leading-relaxed mb-6">Expert coloring, precision cuts, and transformative treatments using world-renowned products.</p>
+          <a href="#" class="text-xs font-bold uppercase tracking-[0.2em] text-salon-accent transition-colors">Learn More &rarr;</a>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="group relative bg-white border border-salon-text/5 rounded-sm p-8 hover:border-salon-accent/30 transition-all shadow-sm hover:shadow-xl hover:-translate-y-2">
+          <div class="mb-6 w-12 h-12 bg-salon-bg rounded-full flex items-center justify-center text-salon-accent group-hover:bg-salon-accent group-hover:text-white transition-all">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+          </div>
+          <h3 class="font-display text-xl font-bold mb-4">Bespoke Wigs</h3>
+          <p class="text-salon-text/60 text-sm font-light leading-relaxed mb-6">Custom wig creation, luxurious revamping, coloring, and flawless frontal installations.</p>
+          <a href="#" class="text-xs font-bold uppercase tracking-[0.2em] text-salon-accent transition-colors">Explore Wigs &rarr;</a>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="group relative bg-white border border-salon-text/5 rounded-sm p-8 hover:border-salon-accent/30 transition-all shadow-sm hover:shadow-xl hover:-translate-y-2">
+          <div class="mb-6 w-12 h-12 bg-salon-bg rounded-full flex items-center justify-center text-salon-accent group-hover:bg-salon-accent group-hover:text-white transition-all">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg>
+          </div>
+          <h3 class="font-display text-xl font-bold mb-4">Pristine Nails</h3>
+          <p class="text-salon-text/60 text-sm font-light leading-relaxed mb-6">Signature manicures, spa pedicures, intricate nail art, and builder gel extensions.</p>
+          <a href="#" class="text-xs font-bold uppercase tracking-[0.2em] text-salon-accent transition-colors">View Catalog &rarr;</a>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="group relative bg-white border border-salon-text/5 rounded-sm p-8 hover:border-salon-accent/30 transition-all shadow-sm hover:shadow-xl hover:-translate-y-2">
+          <div class="mb-6 w-12 h-12 bg-salon-bg rounded-full flex items-center justify-center text-salon-accent group-hover:bg-salon-accent group-hover:text-white transition-all">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          </div>
+          <h3 class="font-display text-xl font-bold mb-4">Bridal & Spa</h3>
+          <p class="text-salon-text/60 text-sm font-light leading-relaxed mb-6">Comprehensive pre-wedding luxury packages, makeup artistry, and relaxing head spas.</p>
+          <a href="#" class="text-xs font-bold uppercase tracking-[0.2em] text-salon-accent transition-colors">Book VIP &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Before & After Gallery -->
+  <section id="gallery" class="py-32 px-6 bg-white text-salon-text">
+    <div class="max-w-7xl mx-auto">
+      <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+        <div class="max-w-2xl space-y-4">
+          <span class="text-salon-accent text-xs font-bold uppercase tracking-[0.3em]">The Transformations</span>
+          <h2 class="font-display text-4xl md:text-5xl font-bold">Showcase of <span class="text-salon-text tracking-normal border-b-2 border-salon-accent">Excellence.</span></h2>
+        </div>
+        <a href="#" class="text-[10px] font-bold uppercase tracking-widest border-b border-salon-text/20 pb-1 hover:border-salon-accent transition-all whitespace-nowrap">View Full Gallery</a>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-4 md:gap-8">
+        <!-- Gallery Item 1 -->
+        <div class="group relative aspect-[4/5] overflow-hidden rounded-sm cursor-pointer shadow-lg hover:shadow-2xl transition-all">
+          <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=800" alt="Hair Transformation" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+          <div class="absolute bottom-0 left-0 p-8 transform translate-y-8 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-500 z-10">
+            <span class="text-salon-accent text-[10px] font-bold uppercase tracking-[0.2em] block mb-2">Balayage & Styling</span>
+            <h3 class="font-display text-white text-2xl font-bold">The Signature Blonde</h3>
+          </div>
+        </div>
+
+        <!-- Gallery Item 2 -->
+        <div class="group relative aspect-[4/5] overflow-hidden rounded-sm cursor-pointer shadow-lg hover:shadow-2xl transition-all md:-translate-y-8">
+          <img src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?auto=format&fit=crop&q=80&w=800" alt="Wig Installation" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+          <div class="absolute bottom-0 left-0 p-8 transform translate-y-8 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-500 z-10">
+            <span class="text-salon-accent text-[10px] font-bold uppercase tracking-[0.2em] block mb-2">Build & Install</span>
+            <h3 class="font-display text-white text-2xl font-bold">Bespoke Wigs</h3>
+          </div>
+        </div>
+
+        <!-- Gallery Item 3 -->
+        <div class="group relative aspect-[4/5] overflow-hidden rounded-sm cursor-pointer shadow-lg hover:shadow-2xl transition-all">
+          <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&q=80&w=800" alt="Nail Art" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+          <div class="absolute bottom-0 left-0 p-8 transform translate-y-8 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-500 z-10">
+            <span class="text-salon-accent text-[10px] font-bold uppercase tracking-[0.2em] block mb-2">Spa Manicure</span>
+            <h3 class="font-display text-white text-2xl font-bold">The Gold French</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Meet the Stylists Section -->
+  <section id="team" class="py-32 px-6 bg-salon-bg text-salon-text relative border-t border-salon-text/5">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-20 space-y-4">
+        <span class="text-salon-accent text-xs font-bold uppercase tracking-[0.3em]">The Artists</span>
+        <h2 class="font-display text-4xl md:text-5xl font-bold">Meet the <span class="text-gradient">Masters.</span></h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-12">
+        <div class="group text-center">
+          <div class="relative w-48 h-48 mx-auto mb-8 rounded-full overflow-hidden border-2 border-salon-accent/20 group-hover:border-salon-accent transition-colors duration-500 bg-white">
+            <img src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?auto=format&fit=crop&q=80&w=400" alt="Creative Director" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500">
+          </div>
+          <h3 class="font-display text-2xl font-bold mb-2">Elena Rossi</h3>
+          <p class="text-salon-accent text-[10px] font-bold uppercase tracking-widest mb-4">Creative Director</p>
+          <p class="text-salon-text/60 text-sm font-light px-4">With 15 years in Milan and Paris, Elena brings haute couture hair styling to every client.</p>
+        </div>
+
+        <div class="group text-center">
+          <div class="relative w-48 h-48 mx-auto mb-8 rounded-full overflow-hidden border-2 border-salon-accent/20 group-hover:border-salon-accent transition-colors duration-500 bg-white">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=400" alt="Wig Specialist" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500">
+          </div>
+          <h3 class="font-display text-2xl font-bold mb-2">Sarah Jenkins</h3>
+          <p class="text-salon-accent text-[10px] font-bold uppercase tracking-widest mb-4">Master Wig Artisan</p>
+          <p class="text-salon-text/60 text-sm font-light px-4">Specializing in flawless, undetectable frontal installs and bespoke color formulation.</p>
+        </div>
+
+        <div class="group text-center">
+          <div class="relative w-48 h-48 mx-auto mb-8 rounded-full overflow-hidden border-2 border-salon-accent/20 group-hover:border-salon-accent transition-colors duration-500 bg-white">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400" alt="Nail Tech" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500">
+          </div>
+          <h3 class="font-display text-2xl font-bold mb-2">Marcus Chen</h3>
+          <p class="text-salon-accent text-[10px] font-bold uppercase tracking-widest mb-4">Lead Nail Technician</p>
+          <p class="text-salon-text/60 text-sm font-light px-4">Renowned for structural gel extensions and intricate, hand-painted nail artistry.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-32 px-6 bg-white text-salon-text relative">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-20 space-y-4">
+        <span class="text-salon-accent text-xs font-bold uppercase tracking-[0.3em]">Client Love</span>
+        <h2 class="font-display text-4xl md:text-5xl font-bold">Word of <span class="text-salon-accent">Mouth.</span></h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-8 bg-salon-bg border border-salon-text/5 rounded-sm relative shadow-sm hover:shadow-md transition-shadow">
+          <div class="text-salon-accent mb-6">
+            <svg class="w-8 h-8 opacity-50" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+          </div>
+          <p class="text-salon-text/70 font-light italic mb-8">"Absolutely phenomenal. Elena completely transformed my hair, and the private VIP suite made the whole experience feel incredibly exclusive."</p>
+          <div class="flex items-center gap-4 mt-auto">
+            <div class="w-10 h-10 bg-white rounded-full overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="Client" class="w-full h-full object-cover">
+            </div>
+            <div>
+              <h4 class="font-bold text-sm">Jessica M.</h4>
+              <p class="text-[10px] uppercase tracking-widest text-salon-text/40">VIP Client</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-8 bg-salon-bg border border-salon-text/5 rounded-sm relative shadow-sm hover:shadow-md transition-shadow md:-translate-y-4">
+          <div class="text-salon-accent mb-6">
+            <svg class="w-8 h-8 opacity-50" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+          </div>
+          <p class="text-salon-text/70 font-light italic mb-8">"I've never had a wig look this natural. Sarah is a true artist. The attention to detail from the color match to the install is unmatched."</p>
+          <div class="flex items-center gap-4 mt-auto">
+            <div class="w-10 h-10 bg-white rounded-full overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1548142813-c348350df52b?auto=format&fit=crop&w=100&q=80" alt="Client" class="w-full h-full object-cover">
+            </div>
+            <div>
+              <h4 class="font-bold text-sm">Amanda R.</h4>
+              <p class="text-[10px] uppercase tracking-widest text-salon-text/40">Loyal Customer</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-8 bg-salon-bg border border-salon-text/5 rounded-sm relative shadow-sm hover:shadow-md transition-shadow">
+          <div class="text-salon-accent mb-6">
+            <svg class="w-8 h-8 opacity-50" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+          </div>
+          <p class="text-salon-text/70 font-light italic mb-8">"The bridal package was worth every penny. The team handled my hair and nails, and I felt like royalty on my wedding day."</p>
+          <div class="flex items-center gap-4 mt-auto">
+            <div class="w-10 h-10 bg-white rounded-full overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=100&q=80" alt="Client" class="w-full h-full object-cover">
+            </div>
+            <div>
+              <h4 class="font-bold text-sm">Chloe T.</h4>
+              <p class="text-[10px] uppercase tracking-widest text-salon-text/40">Bridal Client</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Packages Section -->
+  <section id="pricing" class="py-32 px-6 bg-salon-bg text-salon-text relative border-t border-salon-text/5">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-20 space-y-4">
+        <span class="text-salon-accent text-xs font-bold uppercase tracking-[0.3em]">Investment</span>
+        <h2 class="font-display text-4xl md:text-5xl font-bold">Featured <span class="text-gradient">Packages.</span></h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Package 1 -->
+        <div class="p-8 border border-salon-text/10 bg-white rounded-sm hover:border-salon-accent transition-colors flex flex-col group shadow-sm hover:shadow-xl">
+          <h3 class="font-display text-2xl font-bold mb-2">Signature Revamp</h3>
+          <p class="text-salon-text/50 text-sm mb-6">Complete wig restoration and custom styling.</p>
+          <div class="text-4xl font-bold font-display mb-8">From $250</div>
+          <ul class="space-y-4 mb-8 flex-grow">
+            <li class="flex items-center gap-3 text-sm font-light text-salon-text/80"><svg class="w-4 h-4 text-salon-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Deep Cleansing SPA</li>
+            <li class="flex items-center gap-3 text-sm font-light text-salon-text/80"><svg class="w-4 h-4 text-salon-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Custom Color Formulation</li>
+            <li class="flex items-center gap-3 text-sm font-light text-salon-text/80"><svg class="w-4 h-4 text-salon-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Heat Protection Treatment</li>
+            <li class="flex items-center gap-3 text-sm font-light text-salon-text/80"><svg class="w-4 h-4 text-salon-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Signature Styling</li>
+          </ul>
+          <button class="w-full py-4 border border-salon-accent text-salon-accent group-hover:bg-salon-accent group-hover:text-white font-bold uppercase tracking-widest text-[10px] transition-all">Book Package</button>
+        </div>
+
+        <!-- Package 2 (Highlighted) -->
+        <div class="p-8 border-2 border-salon-accent bg-white rounded-sm shadow-[0_15px_40px_rgba(183,110,121,0.15)] relative flex flex-col transform md:-translate-y-4">
+          <div class="absolute top-0 right-0 bg-salon-accent text-white text-[9px] font-bold uppercase tracking-widest px-4 py-1 rounded-bl-sm">Most Popular</div>
+          <h3 class="font-display text-2xl font-bold mb-2">The VIP Day</h3>
+          <p class="text-salon-text/50 text-sm mb-6">The ultimate full-day luxury transformation.</p>
+          <div class="text-4xl font-bold font-display mb-8 text-salon-accent">$850</div>
+          <ul class="space-y-4 mb-8 flex-grow">
+            <li class="flex items-center gap-3 text-sm font-light text-salon-text/80"><svg class="w-4 h-4 text-salon-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Private VIP Suite Access</li>
+            <li class="flex items-center gap-3 text-sm font-light text-salon-text/80"><svg class="w-4 h-4 text-salon-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Full Hair Cut & Custom Color</li>
+            <li class="flex items-center gap-3 text-sm font-light text-salon-text/80"><svg class="w-4 h-4 text-salon-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Luxury Spa Mani & Pedi</li>
+            <li class="flex items-center gap-3 text-sm font-light text-salon-text/80"><svg class="w-4 h-4 text-salon-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Complimentary Champagne</li>
+          </ul>
+          <button class="w-full py-4 bg-salon-accent text-white hover:bg-salon-accent-glow font-bold uppercase tracking-widest text-[10px] transition-all shadow-lg shadow-salon-accent/20 hover:-translate-y-1">Secure VIP Suite</button>
+        </div>
+
+        <!-- Package 3 -->
+        <div class="p-8 border border-salon-text/10 bg-white rounded-sm hover:border-salon-accent transition-colors flex flex-col group shadow-sm hover:shadow-xl">
+          <h3 class="font-display text-2xl font-bold mb-2">Bridal Elegance</h3>
+          <p class="text-salon-text/50 text-sm mb-6">Flawless beauty for your most important day.</p>
+          <div class="text-4xl font-bold font-display mb-8">From $600</div>
+          <ul class="space-y-4 mb-8 flex-grow">
+            <li class="flex items-center gap-3 text-sm font-light text-salon-text/80"><svg class="w-4 h-4 text-salon-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Initial Consultation & Trial</li>
+            <li class="flex items-center gap-3 text-sm font-light text-salon-text/80"><svg class="w-4 h-4 text-salon-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Day-of Premium Styling</li>
+            <li class="flex items-center gap-3 text-sm font-light text-salon-text/80"><svg class="w-4 h-4 text-salon-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> HD Makeup Application</li>
+            <li class="flex items-center gap-3 text-sm font-light text-salon-text/80"><svg class="w-4 h-4 text-salon-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> On-Location Available</li>
+          </ul>
+          <button class="w-full py-4 border border-salon-accent text-salon-accent group-hover:bg-salon-accent group-hover:text-white font-bold uppercase tracking-widest text-[10px] transition-all">Inquire Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking & Contact Section -->
+  <section id="booking" class="py-32 px-6 bg-white text-salon-text relative">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16">
+      <div class="space-y-8">
+        <span class="text-salon-accent text-xs font-bold uppercase tracking-[0.3em]">Reserve Your Time</span>
+        <h2 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+          Book Your <span class="text-salon-text tracking-normal border-b-2 border-salon-accent">Transformation.</span>
+        </h2>
+        <p class="text-salon-text/70 text-lg font-light leading-relaxed">
+          Our VIP slots fill up quickly. Please fill out the inquiry form below, and our concierge will contact you to confirm your appointment and assign your specialist.
+        </p>
+
+        <div class="pt-8 space-y-6">
+          <div class="flex items-start gap-4">
+            <svg class="w-6 h-6 text-salon-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+            <div>
+              <h4 class="font-bold text-sm">Lumière Flagship</h4>
+              <p class="text-salon-text/60 text-sm font-light">124 Luxury Avenue, Beverly Hills, CA 90210</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <svg class="w-6 h-6 text-salon-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <div>
+              <h4 class="font-bold text-sm">Operating Hours</h4>
+              <p class="text-salon-text/60 text-sm font-light">Tue - Sat: 9:00 AM - 7:00 PM<br>Sun & Mon: By VIP Appointment Only</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Booking Form -->
+      <div class="bg-salon-bg p-8 rounded-sm shadow-md relative border border-salon-text/5">
+        <form class="space-y-6">
+          <div class="grid grid-cols-2 gap-6">
+            <div>
+              <label class="block text-[10px] font-bold uppercase tracking-widest text-salon-text/60 mb-2">First Name</label>
+              <input type="text" class="w-full bg-white border border-salon-text/10 px-4 py-3 outline-none focus:border-salon-accent transition-colors">
+            </div>
+            <div>
+              <label class="block text-[10px] font-bold uppercase tracking-widest text-salon-text/60 mb-2">Last Name</label>
+              <input type="text" class="w-full bg-white border border-salon-text/10 px-4 py-3 outline-none focus:border-salon-accent transition-colors">
+            </div>
+          </div>
+          <div>
+            <label class="block text-[10px] font-bold uppercase tracking-widest text-salon-text/60 mb-2">Service Required</label>
+            <select class="w-full bg-white border border-salon-text/10 px-4 py-3 outline-none focus:border-salon-accent transition-colors cursor-pointer appearance-none">
+              <option>Wig Revamp & Install</option>
+              <option>Hair Coloring & Styling</option>
+              <option>VIP Spa Manicure/Pedicure</option>
+              <option>Bridal Package</option>
+              <option>Exclusive VIP Day ($850)</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-[10px] font-bold uppercase tracking-widest text-salon-text/60 mb-2">Preferred Date</label>
+            <input type="date" class="w-full bg-white border border-salon-text/10 px-4 py-3 outline-none focus:border-salon-accent transition-colors">
+          </div>
+          <button type="submit" class="w-full bg-salon-text text-white hover:bg-salon-accent py-4 font-bold uppercase tracking-widest text-xs transition-all mt-4 border border-salon-text hover:border-salon-accent">
+            Request Appointment
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-salon-text text-white py-12 px-6">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+      <div class="font-display font-bold text-2xl tracking-widest uppercase">
+        Lumière<span class="text-salon-accent">.</span>
+      </div>
+      <div class="flex gap-6 text-[10px] font-bold uppercase tracking-[0.2em] text-white/50">
+        <a href="#" class="hover:text-salon-accent transition-colors">Instagram</a>
+        <a href="#" class="hover:text-salon-accent transition-colors">Tiktok</a>
+        <a href="#" class="hover:text-salon-accent transition-colors">Terms</a>
+      </div>
+      <div class="text-[10px] uppercase tracking-widest text-white/30">
+        &copy; 2026 Lumière VIP Salon. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp & Scroll to Top (Global UI) -->
+  <a href="https://wa.me/2349133871053" target="_blank" class="fixed bottom-6 right-6 bg-[#25D366] text-white p-4 rounded-full shadow-[0_0_20px_rgba(37,211,102,0.4)] hover:scale-110 hover:shadow-[0_0_30px_rgba(37,211,102,0.6)] transition-all z-50 flex items-center justify-center group">
+    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163v-.004c-1.026-1.782-1.567-3.83-1.567-5.932A11.859 11.859 0 0111.954 0c3.167 0 6.143 1.233 8.384 3.473A11.83 11.83 0 0123.81 11.86a11.88 11.88 0 01-3.487 8.411A11.83 11.83 0 0111.953 23.75c-1.928 0-3.837-.487-5.541-1.408l-.014-.008L0 24zm6.068-3.421l.366.216a9.816 9.816 0 005.467 1.637 9.873 9.873 0 009.855-9.854 9.832 9.832 0 00-2.883-6.98 9.814 9.814 0 00-6.974-2.887 9.873 9.873 0 00-9.854 9.855c0 1.84.474 3.633 1.378 5.228l.24.42-1.02 3.738 3.824-1.011zm9.32-6.505c-.51-.252-3.003-1.485-3.472-1.656-.465-.168-.807-.253-1.15.253-.339.508-1.306 1.657-1.602 1.992-.295.337-.59.381-1.097.126-1.986-.983-3.414-2.181-4.735-4.48-.276-.48.272-.455 1.246-2.434.126-.252.062-.475-.064-.727-.123-.255-1.146-2.766-1.571-3.785-.411-.994-.828-.857-1.144-.875-.316-.017-.677-.017-1.036-.017-.357 0-.938.134-1.428.67-.489.539-1.874 1.831-1.874 4.464 0 2.634 1.916 5.178 2.183 5.534.264.358 3.766 5.753 9.124 8.066 1.275.55 2.27.878 3.045 1.124 1.28.399 2.443.342 3.364.207 1.033-.15 3.003-1.229 3.428-2.417.425-1.187.425-2.203.295-2.416-.123-.214-.467-.34-.974-.593z"/></svg>
+  </a>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

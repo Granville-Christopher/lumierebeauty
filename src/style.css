@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer base {
+  body {
+    @apply bg-salon-bg text-salon-text font-sans antialiased selection:bg-salon-accent selection:text-white;
+  }
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-salon-accent to-pink-300;
+}
+
+/* Custom Thin Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF6F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #b76e79;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d69fa5;
+}
