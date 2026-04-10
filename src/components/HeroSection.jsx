@@ -50,7 +50,7 @@ export default function HeroSection() {
       {/* Service Preview Images */}
       <div className="absolute bottom-0 left-0 right-0 z-10 flex justify-center items-end gap-3 md:gap-5 px-4 md:px-16">
         {HERO_IMAGES.map((img) => (
-          <div key={img.alt} className="flex-1 max-w-[160px] overflow-hidden rounded-t-full shadow-xl" style={{ height: '320px' }}>
+          <div key={img.alt} className="flex-1 max-w-[160px] overflow-hidden rounded-t-full shadow-xl h-[160px] md:h-[320px]">
             <img src={img.src} alt={img.alt} className="w-full h-full object-cover object-top" />
           </div>
         ))}
